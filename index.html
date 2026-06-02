@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Phygit-IA-l Fest 2026: Festival de arte digital, IA generativa y creatividad multimedia. Compra tus entradas y descubre el lineup.">
+  <meta name="description"
+    content="Phygit-IA-l Fest 2026: Festival de arte digital, IA generativa y creatividad multimedia. Compra tus entradas y descubre el lineup.">
+
+  <!-- ==========================================
+     FAVICONS (Todos los tamaños)
+     ========================================== -->
+  <!-- Icono tradicional para navegadores antiguos -->
+  <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+
+  <!-- Iconos PNG para navegadores modernos -->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/icons/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/icons/favicon-64x64.png">
+
+  <!-- Apple Touch Icon (iPhone/iPad) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon-180x180.png">
+
+  <!-- Android Chrome -->
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/icons/favicon-512x512.png">
+
+  <!-- Manifest para PWA -->
+  <link rel="manifest" href="assets/icons/site.webmanifest">
+
   <title>Phygit-IA-l Fest 2026</title>
-  
+
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
   <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -35,7 +62,7 @@
           <li><a href="comunidad.html">Comunidad</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
-      </nav>      
+      </nav>
 
       <div class="header__actions">
         <form class="header__search" role="search" aria-label="Búsqueda en el sitio">
@@ -44,7 +71,7 @@
           <button type="submit" aria-label="Buscar">🔍</button>
         </form>
 
-        <button class="header__menu-toggle" aria-expanded="false" aria-controls="main-menu" 
+        <button class="header__menu-toggle" aria-expanded="false" aria-controls="main-menu"
           aria-label="Abrir menú de navegación">
           ☰
         </button>
@@ -59,16 +86,16 @@
 
   <main id="main-content">
 
-  <!-- ****************************************************
+    <!-- ****************************************************
        HERO
-       **************************************************** -->     
+       **************************************************** -->
     <section class="hero" aria-labelledby="hero-title">
       <div class="container hero__content">
-        <h1 id="hero-title">Phygit - <span class="hero-title-plus">IA</span> - l Fest 
+        <h1 id="hero-title">Phygit - <span class="hero-title-plus">IA</span> - l Fest
           <span class="hero-title-year">2026</span>
         </h1>
         <p class="hero__subtitle">Explora, Crea y Comparte tu Universo IA Multimedia</p>
-        
+
         <ul class="hero__artists" aria-label="Artistas destacados">
           <li><a href="#">Amy Goodchild</a></li>
           <li><a href="#">Niklas Roy</a></li>
@@ -82,20 +109,24 @@
       </div>
     </section>
 
-  <!-- ****************************************************
+    <!-- ****************************************************
        BLOQUE INFORMATIVO 
-       **************************************************** -->         
+       **************************************************** -->
     <section class="info" aria-labelledby="info-title">
       <div class="container">
         <h2 id="info-title" class="visually-hidden">Sobre el Festival</h2>
-        <p>Bienvenido a la edición de este año de Phygit-IA-I Fest, el espacio donde la creatividad humana y los modelos de inteligencia artificial se cruzan para redefinir el arte digital. Hemos reunido a los principales creadores pioneros en IA generativa del mundo entero para que disfrutes de su visita.</p>
-        <p>Podrás recorrer instalaciones interactivas, asistir a proyecciones site-specific y descubrir cómo los algoritmos están transformando la manera en que sentimos, miramos y creamos. Un festival diseñado para mentes curiosas que buscan el siguiente lenguaje audiovisual. Disfrútalo.</p>
+        <p>Bienvenido a la edición de este año de Phygit-IA-I Fest, el espacio donde la creatividad humana y los modelos
+          de inteligencia artificial se cruzan para redefinir el arte digital. Hemos reunido a los principales creadores
+          pioneros en IA generativa del mundo entero para que disfrutes de su visita.</p>
+        <p>Podrás recorrer instalaciones interactivas, asistir a proyecciones site-specific y descubrir cómo los
+          algoritmos están transformando la manera en que sentimos, miramos y creamos. Un festival diseñado para mentes
+          curiosas que buscan el siguiente lenguaje audiovisual. Disfrútalo.</p>
       </div>
     </section>
 
-  <!-- ****************************************************
+    <!-- ****************************************************
        LINEUP 
-       **************************************************** -->    
+       **************************************************** -->
     <section class="lineup" aria-labelledby="lineup-title">
       <div class="container">
         <h2 id="lineup-title">LineUp</h2>
@@ -156,20 +187,12 @@
   <footer class="footer" role="contentinfo">
     <div class="container footer__inner">
       <div class="footer__logos">
-            <!-- Logo izquierdo (IMA) -->
-            <img 
-                src="assets/images/logo-ima.png" 
-                alt="International Web Association" 
-                class="footer__logo--collab" 
-                width="120" height="38"
-            >
-            <!-- Logo derecho (ElevenLabs) -->
-            <img 
-                src="assets/images/logo-iielevenlabs.png" 
-                alt="II Eleven Labs" 
-                class="footer__logo--elevenlabs" 
-                width="210" height="28"
-            >
+        <!-- Logo izquierdo (IMA) -->
+        <img src="assets/images/logo-ima.png" alt="International Web Association" class="footer__logo--collab"
+          width="120" height="38">
+        <!-- Logo derecho (ElevenLabs) -->
+        <img src="assets/images/logo-iielevenlabs.png" alt="II Eleven Labs" class="footer__logo--elevenlabs" width="210"
+          height="28">
       </div>
 
       <nav class="footer__nav" aria-label="Menú legal y corporativo">
@@ -188,4 +211,5 @@
   <!-- javascript para menú móvil -->
   <script src="js/main.js" defer></script>
 </body>
+
 </html>
