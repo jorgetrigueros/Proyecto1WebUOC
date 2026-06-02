@@ -1,0 +1,7 @@
+/* css/styles.css */
+@import url('01-variables.css');
+@import url('02-reset-base.css');
+@import url('03-typography.css');
+@import url('04-components.css');
+@import url('05-utilities.css');
+@import url('06-media-queries.css');

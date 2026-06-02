@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  line-height: 1.2;
+  margin-bottom: calc(var(--spacing-unit) * 0.75);
+}
+
+h1 { font-size: 3rem; font-weight: var(--fw-bold); }
+h2 { font-size: 2rem; font-weight: var(--fw-semibold); }
+h3 { font-size: 2rem; font-weight: var(--fw-medium); }
+h4 { font-size: 1.375rem; font-weight: var(--fw-regular); }
+h5 { font-size: 1.25rem; font-weight: var(--fw-regular); }
+h6 { font-size: 1.125rem; font-weight: var(--fw-regular); }
+
+/* Variante Inter (menús, botones, UI) */
+.text-inter { font-family: var(--font-secondary); }
+.text-inter h1, .text-inter h2, .text-inter h3,
+.text-inter h4, .text-inter h5, .text-inter h6 {
+  font-family: var(--font-secondary);
+}
+
+p, li, span { font-size: 1rem; line-height: 1.6; }
+.text-small { font-size: 0.875rem; }
+.text-xs { font-size: 0.75rem; }

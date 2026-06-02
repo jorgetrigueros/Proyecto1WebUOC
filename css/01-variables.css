@@ -1,0 +1,36 @@
+:root {
+  /* Colores primarios definidos en wireframe alta fidelidad FIGMA */
+  --color-primary-black: #0a0a0a;
+  --color-primary-white: #f5f5f5;
+  --color-secondary-dark: #2a2a2a;
+  --color-secondary-mid: #6b6b6b;
+  --color-secondary-light: #d9d9d9;
+  --color-accent-1: #7da27e;
+  --color-accent-1-hover: #c4ff23;
+  --color-accent-2: #a8c3a6;
+  --color-accent-2-hover: #8daf8b;
+  --color-success: #4caf50;
+  --color-error: #e53935;
+  --color-warning: #ffb300;
+  --color-info: #2196f3;
+
+  /* Tipografías definidos en wireframe alta fidelidad FIGMA */
+  --font-primary: 'Playfair Display', Georgia, serif;
+  --font-secondary: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Pesos tipográficos */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Layout */
+  --container-max-width: 1200px;
+  --spacing-unit: 1rem;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+
+  /* Transiciones */
+  --transition-fast: 0.2s ease;
+}

@@ -1,0 +1,56 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-secondary);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-primary-white);            /* Texto claro sobre fondo negro */
+  background-color: var(--color-primary-black); /* #0a0a0a */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, video, svg, canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a { color: inherit; text-decoration: none; }
+ul, ol { list-style: none; }
+button { 
+  font: inherit; 
+  cursor: pointer; 
+  border: none; 
+  background: none; 
+}
+
+/* Ajuste de inputs para modo oscuro */
+input, textarea, select {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-primary-white);
+  border: 1px solid var(--color-secondary-mid);
+  border-radius: var(--border-radius-sm);
+  padding: 0.5rem 0.75rem;
+  font-family: inherit;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--color-accent-1);
+  box-shadow: 0 0 0 3px rgba(125, 162, 126, 0.3);
+}
+
+::selection {
+  background-color: var(--color-accent-1);
+  color: var(--color-primary-black);
+}
